@@ -1,0 +1,47 @@
+API Key for maps
+
+AIzaSyBdwFvTu1epez1a-JCw5Z0EqiloigT_JrY
+
+cloudinary API Key: CLOUDINARY_URL=cloudinary://<your_api_key>:<your_api_secret>@dx36430fh
+
+Cloud Name:dx36430fh
+
+
+
+Provider Side (Worker App Logic)
+
+Service provider registration
+
+Accept / reject booking
+
+Change job status (Pending → Completed)
+
+👉 Advanced but very practical
+
+
+
+Firestore Integration
+
+Store users
+
+Store bookings
+
+Fetch services dynamically
+
+Real-time updates
+
+👉 Makes your app production-ready
+
+
+
+UI Polish
+
+Skeleton loaders
+
+Empty states
+
+Animations
+
+Error handling screens
+
+👉 Makes app look premium

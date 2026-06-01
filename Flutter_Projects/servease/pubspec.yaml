@@ -1,0 +1,60 @@
+name: servease
+description: Local Service Booking App
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.6
+  flutter_rating_bar: ^4.0.1
+
+  # Image & Network
+  image_picker: ^1.0.7
+  http: ^1.2.1
+
+  # Firebase (Auth + Firestore)
+  firebase_core: ^4.3.0
+  firebase_auth: ^6.1.3
+  cloud_firestore: ^6.1.1
+
+  # Maps & Location
+  google_maps_flutter: ^2.6.0
+  geolocator: ^10.1.0
+  location: ^8.0.1
+  geocoding: ^2.2.0
+  url_launcher: ^6.2.5   # ✅ ONLY ONCE
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icon/
+
+# 🔵 Native Splash Screen
+flutter_native_splash:
+  color: "#4A90E2"
+  image: assets/images/logo.png
+  android: true
+  ios: true
+
+# 🔵 App Launcher Icon
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/logo.png
